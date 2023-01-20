@@ -149,7 +149,7 @@ function startGame() {
 function gameOver() {
 
   gameOn = false
-
+  
   console.log("Game over")
   clearInterval(animationId)
   clearInterval(intervalId)
@@ -169,7 +169,8 @@ function gameOver() {
   }
   
   obstaclesArray = []
-
+  score = 0
+  
 }
 
 window.onload = () => {
